@@ -1,0 +1,9 @@
+1. Use main.ipynb to train model and generate code
+
+2. Download parquet files from The Stack
+
+3. Change the data file_path
+
+4. model = CodeLanguageModel().to(device)
+
+5. The model uses MQA. To revert to MHA, go to model.ipynb, ctrl-f "#self.sa = MultiHeadAttention(n_head, head_size)", and change to MHA.
